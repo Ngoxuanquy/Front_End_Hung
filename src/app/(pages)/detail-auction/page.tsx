@@ -140,7 +140,7 @@ const DetailAuction = () => {
   }, [auction]);
 
   const handleBidChange = (e) => {
-    let value = e.target.value;
+    const value = e.target.value;
 
     // Xóa tất cả dấu chấm để xử lý đúng
     const rawValue = value.replace(/\./g, "");
